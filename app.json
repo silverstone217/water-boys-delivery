@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "water-boys-mobile",
-    "slug": "water-boys-mobile",
+    "name": "water-boys-delivery",
+    "slug": "water-boys-delivery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "com.silverstone217.waterboysdelivery",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +19,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.silverstone217.waterboysdelivery"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5223899e-a0c2-4460-98d8-d91519fee4cb"
+      }
     }
   }
 }
